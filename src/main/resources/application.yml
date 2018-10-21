@@ -5,9 +5,9 @@ spring.profiles.active: dev
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://mysql.adsd-etools.svc:3306/notepad
-    username: root
-    password: root
+    url: jdbc:mysql://mysql.adsd-etools.svc:3306/notepadApp
+    username: app
+    password: app
     testWhileIdle: true
     validationQuery: SELECT 1
   jpa:
