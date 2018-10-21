@@ -33,7 +33,7 @@ test_mysql_host: ${ENV_TEST_MYSQL_HOST:mysql.adsd-etools.svc}
 spring:
   profiles: test
   datasource:
-    url: jdbc:mysql://${test_mysql_host}:3306/notepad
+    url: jdbc:mysql://${test_mysql_host}:3306/notepadApp
     username: app
     password: app
     testWhileIdle: true
