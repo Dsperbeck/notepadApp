@@ -7,7 +7,7 @@ pipeline {
 			}
 			steps {
 				echo 'dev branch'	
-				mvn clean install
+				sh 'mvn clean install'
 			}
 		}
 		stage ('stable build stage') {
