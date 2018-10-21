@@ -5,7 +5,7 @@ spring.profiles.active: dev
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/notepad
+    url: jdbc:mysql://mysql.adsd-etools.svc:3306/notepad
     username: root
     password: root
     testWhileIdle: true
@@ -28,7 +28,7 @@ endpoints.sensitive: false
 
 ---
 
-test_mysql_host: ${ENV_TEST_MYSQL_HOST:localhost}
+test_mysql_host: ${ENV_TEST_MYSQL_HOST:mysql.adsd-etools.svc}
 
 spring:
   profiles: test
