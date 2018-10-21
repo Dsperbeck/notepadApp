@@ -34,8 +34,8 @@ spring:
   profiles: test
   datasource:
     url: jdbc:mysql://${test_mysql_host}:3306/notepad
-    username: root
-    password: root
+    username: app
+    password: app
     testWhileIdle: true
     validationQuery: SELECT 1
   jpa:
