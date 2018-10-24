@@ -195,15 +195,6 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-failsafe-plugin</artifactId>
-				<configuration>
-					<includes>
-						<include>**/integrationTests/**</include>
-					</includes>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
